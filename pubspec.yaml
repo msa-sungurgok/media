@@ -9,73 +9,25 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  
-  # Backend ve Real-time
   supabase_flutter: ^1.10.0
-  
-  # Video ve Media
   video_player: ^2.7.0
   just_audio: ^0.9.0
-  chewie: ^1.7.0
-  
-  # Local Storage
   sqflite: ^2.3.0
   shared_preferences: ^2.2.0
-  path_provider: ^2.1.0
-  
-  # State Management ve Navigation
   get: ^4.6.0
   provider: ^6.0.0
-  
-  # API ve Network
   http: ^1.1.0
-  dio: ^5.3.0
-  
-  # JSON Serialization
-  json_serializable: ^6.7.0
   json_annotation: ^4.8.0
-  
-  # Validation ve Formatting
-  validators: ^3.0.0
-  intl: ^0.19.0
-  
-  # Logging
-  logger: ^2.0.0
-  
-  # Push Notifications
-  firebase_messaging: ^14.6.0
-  firebase_core: ^2.19.0
-  
-  # Utility
-  uuid: ^4.0.0
-  cached_network_image: ^3.3.0
-  smooth_page_indicator: ^1.1.0
-  fluttertoast: ^8.2.0
-  
-  # Accessibility for Smart TV
-  flutter_focus_widget: ^1.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  
   flutter_lints: ^2.0.0
   build_runner: ^2.4.0
   json_serializable: ^6.7.0
 
 flutter:
   uses-material-design: true
-  
   assets:
     - assets/images/
-    - assets/images/tv/logos/
-    - assets/images/radio/logos/
     - assets/icons/
-    - assets/backgrounds/
-  
-  fonts:
-    - family: Roboto
-      fonts:
-        - asset: assets/fonts/Roboto-Regular.ttf
-        - asset: assets/fonts/Roboto-Bold.ttf
-          weight: 700

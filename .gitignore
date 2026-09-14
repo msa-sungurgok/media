@@ -10,60 +10,31 @@ build/
 
 # Android
 android/local.properties
-android/gradle.properties
 android/.gradle/
-android/build/
-android/.idea/
 
 # iOS
 ios/Flutter/.last_build_id
 ios/Flutter/Flutter.podspec
-ios/Flutter/Generated.xcconfig
-ios/Flutter/flutter_export_environment.sh
-ios/.symlinks/
-ios/.generated/
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
 
-# Dart/Flutter/Plugins
-pubspec.lock
-
-# Config files with sensitive data
+# Config
 config/supabase_config.dart
 config/secrets.dart
-
-# Environment files
-.env
-.env.local
-.env.*.local
 
 # IDE
 .idea/
 .vscode/
 *.swp
 *.swo
-*~
 .DS_Store
-.vs/
 
 # Logs
 *.log
-logs/
-
-# Coverage
-coverage/
 
 # Generated files
 *.g.dart
-*.config.dart
 *.freezed.dart
 .dart_tool/
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Database files
+# Database
 *.db
 *.sqlite
-*.sqlite3
